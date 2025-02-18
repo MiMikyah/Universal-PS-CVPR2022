@@ -54,5 +54,6 @@ def main():
                     testdata=testData, test_batch_size=1, test_shuffle=False, test_loader_imgsize=(512, 512), test_encoder_imgsize=(256,256), test_decoder_imgsize=(512, 512))
 
 if __name__ == '__main__':
+
     main()
 
